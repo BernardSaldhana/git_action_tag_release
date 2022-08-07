@@ -28,3 +28,5 @@ jobs:
       # uses: anothrNick/github-tag-action@3840ec22ac98e14d981375e3ae2d8d0392964521
       - name: Github Tag Bump
         uses: anothrNick/github-tag-action@1.39.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
